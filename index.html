@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Portfolio personnel d'Ilyas Ghandaoui, développeur passionné par la création de logiciels et d'applications web. Découvrez mes compétences en développement web et logiciel.">
+  <title>Ilyas Ghandaoui - Développeur Web Full-Stack</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WV8EWJY8LP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WV8EWJY8LP');
+</script>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/i.png" >
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#">Ilyas<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          <option value="fr">Fr</option>
+        </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home.</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">à propos.</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Competences.</a>
+          </li>
+
+          
+          <li>
+            <a href="#contact" class="navbar-link">Me contactez.</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+      
+
+      <section class="hero" id="home">
+        <div data-aos="flip-down" class="d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="p-3 rounded text-center">
+                  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/images/hero-banner.jpg" class="d-block w-50 h-50" alt="ilyas ghandaoui ">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/code.jpg" class="d-block w-50 h-50" alt="image de code ilyas ghandaoui">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/team.jpg" class="d-block w-50 h-50" alt="image team work ilyas ghandaoui">
+                      </div>
+                    
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                  </div>
+                  <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExample'), {
+                        interval: 4000
+                      });
+                    });
+                  </script>
+                </div>
+              </div>
+              <div id="divilyas" class="col-lg-6  bg-none">
+                <div class="p-3">
+                  <h1 id="ilyash" class="text-center ">Portfolio de Ilyas Ghandaoui, Développeur Web Full-Stack</h1>
+                  <p id="ilyash" class="text-center ">Je suis Ilyas Ghandaoui, passionné par le développement web, créant des applications et des logiciels intuitifs pour répondre aux besoins des utilisateurs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <ul class="hero-social-list">
+          <li>
+            <a href="https://www.linkedin.com/in/ilyas-ghandaoui-9b78b9258/" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+        </ul>
+      
+        
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" id="stats">
+        <ul data-aos="flip-left" class="stats-list">
+
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                Bac+2  <strong>Motivé</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                20+ <strong>Projets Developpés</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+          
+
+        </ul>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img data-aos="zoom-in" src="./assets/images/interogation.png" alt="A man in a alice blue shirt with a thinking expression"
+            class="w-100">
+        </figure>
+
+        <div data-aos="zoom-in" class="about-content section-content">
+
+          <p  class="section-subtitle">à propos</p>
+
+          <h2  class="h3 section-title">Vous avez besoin d'un stagiaire motivé et dynamique ? (oui)</h2>
+
+          <p  class="section-text">
+            Salut ! Je suis Ilyas ghandaoui, et je suis un  jeune développeur passionné 
+            par la création de logiciels et d'applications web dotées de fonctionnalités 
+            intuitives. J'apprécie le processus de concrétisation des idées en utilisant des solutions créatives. 
+            Je suis constamment avide d'apprendre de nouvelles compétences, outils et concepts. 
+            En plus de travailler sur divers projets solo en full-stack, j'ai collaboré avec des équipes créatives, 
+            impliquant des réunions quotidiennes, et la gestion de projets.
+          </p>
+
+          <div data-aos="zoom-in" class="btn-group">
+            <a href="#contact">
+              <button class="btn btn-secondary">Embauchez moi !</button>
+          </a>
+            
+          <a href="assets\CV-ILYAS-GHANDAOUI.pdf" download>
+              <button class="btn btn-primary">Enregistrer mon CV</button>
+          </a>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="skills" id="skills">
+
+        <div data-aos="fade-right"class="skills-content section-content">
+
+          <p class="section-subtitle">Mes compétences </p>
+
+          <h2 class="h3 section-title">Que sais-je faire ?</h2>
+
+          <p class="section-text">
+            Je développe des interfaces utilisateur simples, 
+            intuitives et réactives qui aident les utilisateurs à accomplir 
+            des tâches avec moins d'effort et de temps, en utilisant ces technologies.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>skills</button>
+
+            <button class="toggle-btn" data-toggle-btn>outils</button>
+          </div>
+
+        </div>
+
+        <div data-aos="fade-left" class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">C#</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/cs.png" alt="c# logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">C++</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/cpp.png" alt="c++ logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/bootstrap.png" alt="Bootstrap logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Angular</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/angular.png" alt="Angular logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SQL</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sql.png" alt="sql logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">PHP</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/php.png" alt="php logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JAVA</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/java.png" alt="java logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+             <li>
+              <div class="skill-card">
+                <div class="tooltip">Docker</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/docker.png" alt="docker logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Machine Learning</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/deep-learning.png" alt="Machine Learning logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
+
+          <ul class="tools-list">
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Gulp</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/gulp.png" alt="Gulp logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Webpack</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/webpack.png" alt="Webpack logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Trello</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/trello.png" alt="Trello logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ClickUp</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/clickup.png" alt="ClickUp logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Slack</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/slack.png" alt="Slack logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Photoshop</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/photoshop.png" alt="Photoshop logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe XD</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/adobe-xd.png" alt="Adobe XD logo ilyas ghandaoui">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+     
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact">
+
+        <div data-aos="fade-right" class="contact-content section-content">
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h3 section-title">Vous avez des projets pour moi ? N'hésitez pas, envoyez-moi un message.</h2>
+
+
+          <p class="section-text">
+            Prenez contact et faites-moi savoir comment je peux vous aider. Remplissez le formulaire et je vous contacterai dès que possible
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Adresse:</h3>
+
+                <address class="contact-info">
+                  12 rue vaucanson Amiens,80090
+                </address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Telephone</h3>
+
+                <a href="tel:01234567789" class="contact-info">0662819646</a>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+                <a href="mailto:info@jack.com" class="contact-info">ilyasghandaoui6@gmail.com</a>
+
+                
+              </div>
+
+            </li>
+
+            <li>
+              <ul class="contac-social-list">
+
+                
+
+                <li>
+                  <a href="https://www.linkedin.com/in/ilyas-ghandaoui-9b78b9258/" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <form  data-aos="fade-down" action="https://fifty-fifty-plants.000webhostapp.com/sendmail.php" method="post" class="contact-form">
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Nom</label>
+
+            <div class="input-wrapper">
+
+              <input type="text" name="name" id="name" required placeholder="il gh..." class="input-field">
+
+              <ion-icon name="person-circle"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="email" class="form-label">Email</label>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email" id="email" required placeholder="ex@exemple.com"
+                class="input-field">
+
+              <ion-icon name="mail"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">N°Telephone</label>
+
+            <div class="input-wrapper">
+
+              <input type="tel" name="phone" id="phone" required placeholder="0601020304" class="input-field">
+
+              <ion-icon name="call"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Message</label>
+
+            <div class="input-wrapper">
+
+              <textarea name="message" id="message" required placeholder="écrire un  message..."
+                class="input-field"></textarea>
+
+              <ion-icon name="chatbubbles"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Envoyez !</button>
+
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer data-aos="flip-down" class="footer"> 
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+         Ilyas GHANDAOUI<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2023-2024 <a href="#">Ilyas Ghandaoui</a>. Tout droits réservé
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
