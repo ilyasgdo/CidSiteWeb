@@ -6,19 +6,10 @@
     <title>Formulaire d'envoi de photos</title>
 </head>
 <body>
-    <h1>Formulaire d'envoi de photos</h1>
+    <h1>Page d'acceuil</h1>
+    <a href="html/photo/nouvellePhoto.html"><button>clique</button></a>
+    
 
-    <form action="assets/php/sendmail.php" method="post" enctype="multipart/form-data">
-        <label for="titre">Titre de la photo:</label>
-        <input type="text" name="titre" required><br>
 
-        <label for="description">Description:</label>
-        <textarea name="description" required></textarea><br>
-
-        <label for="photo">Sélectionnez une photo:</label>
-        <input type="file" name="photo" accept="image/*" required><br>
-
-        <input type="submit" value="Envoyer la photo">
-    </form>
 </body>
 </html>
