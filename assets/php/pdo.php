@@ -1,6 +1,6 @@
 <?php
 $base = array(
-    "nombase" => "testsite",
+    "nombase" => "bdsaecid",
     "adrServ" => "localhost",
     "port" => "3306",
     "utilisateur" => "root",
