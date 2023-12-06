@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Codec Pro';
+    src: local('Codec Pro Bold'), local('Codec-Pro-Bold'),
+        url('../CodecPro-Bold/CodecPro-Bold.woff2') format('woff2'),
+        url('../CodecPro-Bold/CodecPro-Bold.woff') format('woff'),
+        url('../CodecPro-Bold/CodecPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+html{
+    margin: 0.5vw;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #260e69;
+    border-radius: 10rem;
+}
+
+body{
+    background-color: #101729;
+    margin: 0;
+}
+
+footer{
+    margin: 0;
+    background-color: #101729;
+    padding: 3vw;
+    padding-top: 1vw;
+}
+
+input{
+    border-radius: 3vw;
+    border: None;
+    margin: 0.5vw;
+    height: 2.5vw; 
+}
+
+#Logo,#NoPFP{
+    width: 2.5vw;
+    margin: 0.5vw;
+}
+
+#NoPFP{
+    border-radius: 10rem;
+}
+
+.Nav1{
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.Nav2{
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.bodyCenter{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body0{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body1,.body2,.body3{
+    border-radius: 2.5vw;
+    margin: 4vw;
+    padding: 2.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.body2{
+    background-color: #5a23a2;
+}
+
+.body3{
+    margin: 1vw;
+    padding: 1vw;
+    background-color: #9340ff;
+}
+
+.body4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 2vw;
+    height: 2vw;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Codec Pro';
+    color: #5a23a2;
+}
+
+h1{
+    font-size: 3vw;
+}
+
+button{
+    font-family: 'Codec Pro';
+    border-radius: 2.5vw;
+    border: None;
+}
+
+p{
+    font-family: 'Codec Pro';
+    color: white;
+    width: 25vw;
+    margin-left: 2.5vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+#ImageDANDG{
+    border-radius: 1vw;
+    height: 10vw;
+    background-color: #260e69;
+}
+
+#Event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+}
+
+#AllEvent{
+    background: linear-gradient(to bottom right, #9340ff, #ff3C5f);
+}
+
+#TitleW{
+    color: white;
+}
+
+/* Sidenav menu */
+.sidenav {
+    height: 50%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -300px;
+    background-color: #9340ff;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+    border-radius: 3rem;
+}
+  
+/* Sidenav menu links */
+.sidenav a {
+    font-family: 'Codec Pro';
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 1s;
+}
+  
+.sidenav a:hover {
+    color: #111;
+}
+  
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+  /* Active class */
+.sidenav.active {
+    left: 0;
+}
+  
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+  
+  /* Icône burger */
+.burger-icon span {
+    display: block;
+    border-radius: 3rem;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
