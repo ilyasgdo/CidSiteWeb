@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="William Frilley">
+    <meta name="description" content="L'espace galerie du CID permet aux anciens étudiants de l'UPJV de pouvoir consulter et envoyer des images">
+
+    <link rel="icon" href="../../assets/images/cid_onlineBlanc.png">
+    <link rel="stylesheet" href="../../assets/styles/style.css">
+
+    <title>Galerie des images</title>
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <section>
+            <input class="call-to-action-button" type="button" value="Publier une photo" onclick="showPictureForm()">
+
+            <form id="formulaire-photo" action="../../assets/php/sendmail.php" method="post" enctype="multipart/form-data">
+                <dl>
+                    <dt><img src="../../assets/images/pen-icon.svg"><label for="titre">Titre</label></dt>
+                    <dd><input type="text" name="titre" required><br></dd>
+
+                    <dt><img src="../../assets/images/account-icon.svg"><label>Personnes</label></dt>
+                    <dd><input type="text" required></dd>
+
+                    <dt><img src="../../assets/images/calendar-icon.svg"><label>Date</label></dt>
+                    <dd><input type="text" required></dd>
+
+                    <dt><img src="../../assets/images/school-icon.svg"><label>Promotion</label></dt>
+                    <dd><input type="text" required></dd>
+
+                    <dt><img src="../../assets/images/description-icon.svg"><label for="description">Description:</label></dt>
+                    <dd><textarea name="description" required></textarea></dd>
+                </dl>
+                
+                <div id="ajout-photo">
+                    <p>Faites glisser votre image ici</p>
+                    <div>
+                        <label for="photo">Sélectionnez une photo:</label>
+                    </div>
+                    <input type="file" name="photo" accept="image/*" required>
+                </div>
+
+                <input type="submit" value="Envoyer la photo">
+
+            </form>
+
+            <script>
+                var formulaire = document.getElementById("formulaire-photo");
+                formulaire.style.display = "none";
+            </script>
+
+        </section>
+        
+        <article>
+
+            <h1>Galerie des images</h1>
+
+            <section id="galerie">
+                <figure>
+                    <img width="100%"src="../../assets/images/team.jpg">
+                    <figcaption>
+                        <dl>
+                            <dt>Titre</dt>
+                            <dd>Test</dd>
+
+                            <dt>Promo</dt>
+                            <dd>Test</dd>
+
+                            <dt>Personnes</dt>
+                            <dd>Test</dd>
+
+                            <dt><time datetime="">Date</time></dt>
+                            <dd></dd>
+
+                            <dt>Description</dt>
+                            <dd></dd>
+                        </dl>
+                    </figcaption>
+
+                    <a href="photo.html"><input type="button" value="Détails"></a>
+
+                </figure>
+
+                <figure>
+                    <img width="100%"src="../../assets/images/team.jpg">
+                    <figcaption>
+                        <dl>
+                            <dt>Titre</dt>
+                            <dd>Test</dd>
+
+                            <dt>Promo</dt>
+                            <dd>Test</dd>
+
+                            <dt>Personnes</dt>
+                            <dd>Test</dd>
+
+                            <dt><time datetime="">Date</time></dt>
+                            <dd></dd>
+
+                            <dt>Description</dt>
+                            <dd></dd>
+                        </dl>
+                    </figcaption>
+
+                    <a href="photo.html"><input type="button" value="Détails"></a>
+
+                </figure>
+
+                <figure>
+                    <img width="100%"src="../../assets/images/team.jpg">
+                    <figcaption>
+                        <dl>
+                            <dt>Titre</dt>
+                            <dd>Test</dd>
+
+                            <dt>Promo</dt>
+                            <dd>Test</dd>
+
+                            <dt>Personnes</dt>
+                            <dd>Test</dd>
+
+                            <dt><time datetime="">Date</time></dt>
+                            <dd></dd>
+
+                            <dt>Description</dt>
+                            <dd></dd>
+                        </dl>
+                    </figcaption>
+
+                    <a href="photo.html"><input type="button" value="Détails"></a>
+
+                </figure>
+
+                <figure>
+                    <img width="100%"src="../../assets/images/team.jpg">
+                    <figcaption>
+                        <dl>
+                            <dt>Titre</dt>
+                            <dd>Test</dd>
+
+                            <dt>Promo</dt>
+                            <dd>Test</dd>
+
+                            <dt>Personnes</dt>
+                            <dd>Test</dd>
+
+                            <dt><time datetime="">Date</time></dt>
+                            <dd></dd>
+
+                            <dt>Description</dt>
+                            <dd></dd>
+                        </dl>
+                    </figcaption>
+
+                    <a href="photo.html"><input type="button" value="Détails"></a>
+
+                </figure>
+
+                <figure>
+                    <img width="100%"src="../../assets/images/team.jpg">
+                    <figcaption>
+                        <dl>
+                            <dt>Titre</dt>
+                            <dd>Test</dd>
+
+                            <dt>Promo</dt>
+                            <dd>Test</dd>
+
+                            <dt>Personnes</dt>
+                            <dd>Test</dd>
+
+                            <dt><time datetime="">Date</time></dt>
+                            <dd></dd>
+
+                            <dt>Description</dt>
+                            <dd></dd>
+                        </dl>
+                    </figcaption>
+
+                    <a href="photo.html"><input type="button" value="Détails"></a>
+
+                </figure>
+
+                <figure>
+                    <img width="100%"src="../../assets/images/team.jpg">
+                    <figcaption>
+                        <dl>
+                            <dt>Titre</dt>
+                            <dd>Test</dd>
+
+                            <dt>Promo</dt>
+                            <dd>Test</dd>
+
+                            <dt>Personnes</dt>
+                            <dd>Test</dd>
+
+                            <dt><time datetime="">Date</time></dt>
+                            <dd></dd>
+
+                            <dt>Description</dt>
+                            <dd></dd>
+                        </dl>
+                    </figcaption>
+
+                    <a href="photo.html"><input type="button" value="Détails"></a>
+
+                </figure>
+            </section>
+
+            <input class="call-to-action-button" type="button" value="Voir plus de photos">
+
+        </article>
+
+    </main>
+
+    <footer></footer>
+    <script src="../../assets/js/script.js"></script>
+</body>
+</html>

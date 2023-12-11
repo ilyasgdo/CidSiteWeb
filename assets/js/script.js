@@ -103,3 +103,12 @@ if (localStorage.getItem("theme") === "light_theme") {
   document.body.classList.remove("light_theme");
   document.body.classList.add("dark_theme");
 }
+
+function showPictureForm(){
+  var formulaire = document.getElementById("formulaire-photo");
+  if (formulaire.style.display === "none") {
+    formulaire.style.display = "block";
+  } else {
+    formulaire.style.display = "none";
+  }
+}
